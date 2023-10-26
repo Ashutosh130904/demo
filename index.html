@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <p>
+     hghgjkg
+    </p>
+    <script>
+        let para=document.querySelector('p')
+       para.style.color="green";
+       para.innerHTML="paragraph56"
+
+       let f=0;
+       for(let i=0;i<1;i++){
+
+    
+       para.addEventListener("click",function(){
+        if(f==0){
+            para.style.color="aqua";
+            f=1
+        }
+       else{
+        para.style.color="green";
+       }
+       })
+    }
+    </script>
+</body>
+</html>
